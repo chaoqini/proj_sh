@@ -7,3 +7,5 @@ echo $@
 echo 22
 git commit -a -m $2
 echo 33
+git push
+echo 44
