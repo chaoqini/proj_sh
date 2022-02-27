@@ -1,7 +1,15 @@
 #!/bin/bash
-##git remote add origin git@github.com:chaoqini/proj_sh.git
+## ==========
+##create repository
+##git init
+##git remote add origin git@github.com:chaoqini/reporitory.git
 ##git branch -M main
 ##git push --set-upstream origin main
+## ==========
+## ==========
+##remove repository
+##rm -rf .git
+## ==========
 date=$(date +%Y%m%d)
 message=${1:-$date}
 dir=${2:-.}
