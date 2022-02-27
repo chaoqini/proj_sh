@@ -3,7 +3,9 @@
 ##git branch -M main
 ##git push --set-upstream origin main
 date=$(date +%Y%m%d)
-message=${1:-date}
+message=${1:-$date}
+#echo $message
+#exit
 dir=${2:-.}
 date=`date +%Y%m%d`
 builtin cd $dir
