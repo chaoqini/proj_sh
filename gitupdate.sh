@@ -14,7 +14,7 @@
 ## ==========
 ##git push update 
 ## ==========
-date=$(date +%Y%m%d:%h)
+date=$(date +%Y%m%d_%R)
 message=${1:-$date}
 dir=${2:-.}
 #echo $message
