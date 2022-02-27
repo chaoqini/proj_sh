@@ -10,6 +10,10 @@
 ##remove repository
 ##rm -rf .git
 ## ==========
+
+## ==========
+##git push update 
+## ==========
 date=$(date +%Y%m%d)
 message=${1:-$date}
 dir=${2:-.}
