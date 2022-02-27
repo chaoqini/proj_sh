@@ -1,3 +1,4 @@
+echo 00
 builtin cd $1
 git status
 echo $1
