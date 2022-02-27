@@ -17,6 +17,7 @@
 date=$(date +%Y%m%d)
 message=${1:-$date}
 dir=${2:-.}
+date=`date +%Y%m%d`
 builtin cd $dir
 git add "$dir/."
 git commit -a -m $message
