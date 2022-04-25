@@ -3,6 +3,9 @@
 ##git push --set-upstream origin main
 ##builtin cd "$1"
 ##git add "$1/."
-git add .
-git commit -a -m $1
-git push
+#git add .
+#git commit -a -m $1
+#git push
+echo "test"
+#vim
+firefox
