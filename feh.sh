@@ -1,5 +1,5 @@
 #!/bin/bash
-sleep 60
+sleep 3
 WALLPAPERS="$HOME/pictures/wallpapers"
 ALIST=( `ls -w1 $WALLPAPERS` )
 
@@ -8,5 +8,6 @@ do
 RANGE=${#ALIST[*]}
 SHOW=$(( $RANDOM % $RANGE ))
 feh --bg-scale $WALLPAPERS/${ALIST[$SHOW]}
-sleep 600
+sleep 5
+#sleep 600
 done &
